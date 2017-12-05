@@ -1,0 +1,52 @@
+Rozszerzony algorytm Euklidesa
+
+Zaimplementuj rekurencyjny rozszerzony algorytm Euklidesa drukuj¹cy kombinacjê liniow¹ dwóch liczb. Dok³adny opis algorytmu dostêpny jest tutaj.
+Wejœcie
+
+Na wejœciu pojawi siê pewna liczba wierszy zawieraj¹cych dwie dodatnie liczby: a i b mniejsze ni¿ 2^63 rozdzielone znakiem tabulacji.
+Wyjœcie
+
+Liniowa kombinacja liczb a i b w postaci: NWD=a*x+b*y. Liczby ujemne ujête s¹ w nawiasy.
+Dzia³anie programu nale¿y zakoñczyæ w momencie kiedy osi¹gniêty zostanie koniec pliku z wejœciem. Mo¿emy to osi¹gn¹æ sprawdzaj¹c czy wczytano znak EOF (end of file). W zale¿noœci od u¿ytego jêzyka bêdzie to wygl¹da³o mniej wiêcej tak:
+
+C
+
+    while(scanf(...) != EOF) {
+        ...nasz program wykonywany w pêtli...
+    }
+C++
+
+    while(!std::cin.eof()) {
+        ...nasz program wykonywany w pêtli...
+    }
+albo:
+    while(std::cin.good()) {
+        ...nasz program wykonywany w pêtli...
+    }
+albo:
+    while(std::cin >> ...) {
+        ...nasz program wykonywany w pêtli...
+    }
+Przyk³ad
+
+Wejœcie
+
+0	0
+0	1
+1	0
+0 32345
+43254	0
+2	43243
+174	18
+43476	43677
+
+Wyjœcie
+
+0=0*1+0*0
+1=0*0+1*1
+1=1*1+0*0
+32345=0*0+32345*1
+43254=43254*1+0*0
+1=2*(-21621)+43243*1
+6=174*(-1)+18*10
+3=43476*(-2173)+43677*2163

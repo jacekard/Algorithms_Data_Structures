@@ -1,0 +1,16 @@
+Najwiêkszy wspólny dzielnik
+
+Wypisaæ najwiêkszy wspólny dzielnik dwóch liczb.
+Wejœcie
+
+Dwie liczby n, m.
+Wyjœcie
+
+Najwiêkszy wspólny dzielnik liczb n i m.
+Przyk³ad
+
+Wejœcie
+16 42
+
+Wyjœcie
+2

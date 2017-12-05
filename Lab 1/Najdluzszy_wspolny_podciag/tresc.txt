@@ -1,0 +1,35 @@
+Najd³u¿szy wspólny podci¹g
+
+Napisz program który znajdzie najd³u¿szy wspólny podci¹g dwóch wyrazów. Najd³u¿szy wspólny podci¹g to taka sekwencja znaków (nie musi byæ "ci¹g³a"), która wystêpuje w obu wyrazach.
+Przyk³adowo, najd³u¿szym wspólnym podci¹giem wyrazów "aaxxbxxcdeyyyy" i "fxgxhxixyyjyykkk") jest "xxxxyyyy".
+Wejœcie
+
+Na wejœciu, w jednej linii, zostan¹ podane dwa s³owa, rozdzielone spacj¹. S³owa sk³adaj¹ siê tylko z ma³ych liter alfabetu angielskiego. S³owa nie bêd¹ d³u¿sze ni¿ 2000 znaków.
+Wyjœcie
+
+Na wyjœciu nale¿y wypisaæ najd³u¿szy wspólny podci¹g wyrazów z wejœcia. Mo¿na za³o¿yæ, ¿e dane s¹ jednoznaczne (zawsze bêdzie tylko jeden najd³u¿szy wspólny podci¹g).
+Przyk³ad
+
+Wejœcie
+aaxxbxxcdeyyyy fxgxhxixyyjyykkk
+
+Wyjœcie
+xxxxyyyy
+
+Wejœcie
+aaaa aaa
+
+Wyjœcie
+aaa
+
+Wejœcie
+aaaa bbbb
+
+Wyjœcie
+
+
+Wejœcie
+abbba caac
+
+Wyjœcie
+aa

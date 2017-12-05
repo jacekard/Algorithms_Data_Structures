@@ -1,0 +1,19 @@
+Wyszukaj mi mamo
+
+Napisz program, który dla danego wzorca P i tekstu T wypisze pozycje, na których znajduje siê wzorzec P jako pods³owo tekstu T.
+
+Wejœcie
+
+W pierwszym wierszu podany jest wzorzec. W drugim wierszu podany jest tekst.
+Wyjœcie
+
+Wypisz pozycje na których wzorzec P pasuje w tekscie T.
+
+Przyk³ad
+
+Wejœcie:
+abc
+abdabcd
+
+Wyjœcie
+3

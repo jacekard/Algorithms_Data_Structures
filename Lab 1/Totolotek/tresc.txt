@@ -1,0 +1,84 @@
+Totolotek
+
+Regularnie grasz w Totolotka i wytypowa³eœ sobie m zestawów liczb, które chcia³byœ obstawiaæ w kolejnych losowaniach. Postanowi³eœ, ¿e przeanalizujesz wyniki wczeœniejszych losowañ, ¿eby dowiedzieæ siê, jak czêsto Twoje wytypowane uk³ady liczb trafia³y siê w przesz³oœci.
+
+W tej wersji Totolotka w ka¿dym losowaniu wybierasz (bez powtórzeñ) 5 liczb ca³kowitych nieujemnych i nie wiêkszych ni¿ 60.
+
+Wejœcie
+
+Pierwsza linia wejœcia zawiera liczbê n (n < 107) wczeœniejszych losowañ, których wyniki znasz. Nastêpne n linii zawiera opis tych losowañ; ka¿da linia zawiera 5 liczb ca³kowitych nieujemnych i nie wiêkszych ni¿ 60, oddzielonych spacjami.
+
+Potem nastêpuje m linii, w których s¹ podane Twoje wytypowane uk³ady liczb. Ka¿dy uk³ad ma format taki sam jak opis archiwalnego losowania.
+
+Wyjœcie
+
+Na wyjœciu musi siê pojawiæ dok³adnie m linii - w ka¿dej z nich musisz podaæ liczbê wyst¹pieñ odpowiedniego spoœród Twoich wytypowanych uk³adów wœród archiwalnych wyników losowañ. Je¿eli Twój wytypowany uk³ad nie wyst¹pi³ ani razu wœród wczeœniejszych losowañ, wypisz znak * zamiast liczby wyst¹pieñ.
+
+Przyk³ad
+
+Wejœcie
+2
+1 2 3 4 5
+7 8 9 10 11
+
+Wyjœcie
+[puste]
+Przyk³ad
+
+Wejœcie
+2
+1 2 3 4 5
+7 8 9 10 11
+1 2 3 4 5
+
+Wyjœcie
+1
+Przyk³ad
+
+Wejœcie
+2
+1 2 3 4 5
+7 8 9 10 11
+1 2 3 4 6
+
+Wyjœcie
+*
+Przyk³ad
+
+Wejœcie
+2
+1 2 3 4 5
+7 8 9 10 11
+2 3 4 5 1
+
+Wyjœcie
+1
+Przyk³ad
+
+Wejœcie
+5
+1 2 3 4 5
+1 3 2 4 5
+2 3 1 5 4
+7 8 9 10 11
+6 7 8 11 13
+2 3 4 5 1
+7 8 9 11 10
+
+Wyjœcie
+3
+1
+Przyk³ad
+
+Wejœcie
+4
+1 2 3 4 5
+1 3 2 4 5
+7 8 9 10 11
+2 3 1 5 4
+2 3 4 5 1
+7 8 9 11 10
+
+Wyjœcie
+3
+1
